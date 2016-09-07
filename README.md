@@ -35,7 +35,7 @@ To capture the point clouds and segment planar surfaces: `./capture_seg`</br>
 To do the global and local pipelines: `./features_matching <scene_filename.pcd> <model_filename.pcd> <model_room_filename.pcd>`</br>
      
 ####method2: SVM classification (with Kinfu)
-To do the svm and local pipelines: `./svm_test`</br>
+To do the svm and local pipelines: `./svm_test <TSDF_point_cloud> <SVM_model>`</br>
 ###examples
 Some input and output examples, and algorithm flowchart</br>
 </br> 
