@@ -161,7 +161,7 @@ main (int argc, char **argv)
   print_info ("Convert a CAD model to a point cloud using uniform sampling. For more information, use: %s -h\n",
               argv[0]);
 
-  if (argc < 2)
+  if (argc < 2 || pcl::console::find_switch (argc, argv, "-h"))
   {
     printHelp (argc, argv);
     return (-1);
