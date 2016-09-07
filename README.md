@@ -20,7 +20,7 @@ Create a set of models with different orientations and scales.</br>
 </br>
 1. To create the data set with a model *.pcd (Must finish converter steps): `./pcd2dataset <model_filename(.pcd)> [Options]`</br>
 2. To create the data set with a model *.ply (Must finish converter first step): `./pcd2dataset <model_filename(.ply)> [Options]` </br
-3. To calculate the VFH descriptors and do libSVM training : ./create_vfh_dataset <output_SVM_model(*.model)> [Options] (with the pcd files dataset named training_model_[number].pcd)  
+3. To calculate the VFH descriptors and do libSVM training : `./create_vfh_dataset <output_SVM_model(*.model)> [Options]` (with the pcd files dataset named training_model_[number].pcd)  
 </br>
 4. To calculate the VFH descriptors then reserve as pcd file : `./write_VFH_pcd` (with the pcd files dataset named training_model_[number].pcd)</br>
 </br>
