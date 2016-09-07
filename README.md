@@ -23,6 +23,7 @@ Create a set of models with different orientations and scales.</br>
 3. To calculate the VFH descriptors and do libSVM training (with the pcd files dataset named training_model_[number].pcd): `./create_vfh_dataset <output_SVM_model(*.model)> [Options]` </br>
 4. To calculate the VFH descriptors then reserve as pcd file (with the pcd files dataset named training_model_[number].pcd): `./write_VFH_pcd`</br>
 </br>
+</br>
 ###tsdf_cloud
 
 To get the TSDF point cloud :  `./tsdf_cloud` then press Exit.     
