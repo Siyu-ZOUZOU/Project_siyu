@@ -25,7 +25,7 @@ _Create a set of models with different orientations and scales._</br>
 * To calculate the VFH descriptors then reserve as pcd file : ```./write_VFH_pcd ``` (with the pcd files dataset named training_model_[number].pcd)</br>
 
 ### tsdf_cloud
-* To get the TSDF point cloud :  ```./tsdf_cloud``` then press Exit.     
+* To get the TSDF point cloud :  ```./tsdf_cloud``` , then press Exit.     
 
 ### matching
 #### method1: Global and local pipelines
@@ -57,14 +57,15 @@ Others methods I tried.</br>
 </br>
 
 ## Flowchart
-* Method 1
+* __Method 1__
 ![](https://github.com/Siyu-ZOUZOU/Project/blob/master/examples/methode1.png) 
 </br>
-* Method 2
+* __Method 2__
 ![](https://github.com/Siyu-ZOUZOU/Project/blob/master/examples/methode2.png) 
 </br>
 
 ## Report for the project
+Report is availble in google drive
 [Report](https://drive.google.com/open?id=0B6L4aoLTHNX1bFlNR1pIUlNmbGc)  
 
 </br>
