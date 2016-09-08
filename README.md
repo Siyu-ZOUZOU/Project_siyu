@@ -1,7 +1,7 @@
 <snippet>
   <content>
 # Project
-
+A project for object recognition and camera localization
 
 ## Installation
 1. `cd build`
@@ -9,13 +9,13 @@
 3. `make`
 
 ## Introduction
-###converter
+### converter
 Convert model collada to ply and pcd, create and train the dataset for later use.</br>
 </br>
 1. To convert the Collada modle to *.ply: `./Collada2Ply ColladaFileName(.dae)`</br>
 2. To convert *.ply to *.pcd: `./mesh_sampling OutputName(.pcd) [Options]` (Must finish step 1.)</br>
 
-###create_dataset
+### create_dataset
 Create a set of models with different orientations and scales.</br>
 </br>
 1. To create the data set with a model *.pcd (Must finish converter steps): `./pcd2dataset <model_filename(.pcd)> [Options]`</br>
@@ -24,20 +24,35 @@ Create a set of models with different orientations and scales.</br>
 </br>
 4. To calculate the VFH descriptors then reserve as pcd file : `./write_VFH_pcd` (with the pcd files dataset named training_model_[number].pcd)</br>
 
-###tsdf_cloud
+### tsdf_cloud
 
 To get the TSDF point cloud :  `./tsdf_cloud` then press Exit.     
-###matching
-####method1: Global and local pipelines
+### matching
+#### method1: Global and local pipelines
 To capture the point clouds and segment planar surfaces: `./capture_seg`</br>
 To do the global and local pipelines: `./features_matching <scene_filename.pcd> <model_filename.pcd> <model_room_filename.pcd>`</br>
-####method2: SVM classification (with Kinfu)
+#### method2: SVM classification (with Kinfu)
 To do the svm and local pipelines: `./svm_test <TSDF_point_cloud> <SVM_model>`</br>
-###examples
+### examples
 Some input and output examples, and algorithm flowchart</br>
 </br> 
-###others
+### others
 Others methods I tried</br>
+
+# Usage
+## Method 1
+1. `./Collada2Ply ColladaFileName(.dae)`</br>
+2. `./mesh_sampling OutputName(.pcd) [Options]`</br>
+3. `./capture_seg`</br>
+4. `./features_matching <scene_filename.pcd> <model_filename.pcd> <model_room_filename.pcd>`</br>
+</br>
+## Method2
+1. `./Collada2Ply ColladaFileName(.dae)`</br>
+2. `./pcd2dataset <model_filename(.ply)> [Options]`</br>
+3. `./create_vfh_dataset <output_SVM_model(*.model)> [Options]`</br>
+4. `./tsdf_cloud`</br>
+5. `./svm_test <TSDF_point_cloud> <SVM_model>`</br>
+
 </br>
   </content>
 </snippet>
