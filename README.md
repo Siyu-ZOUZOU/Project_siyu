@@ -54,6 +54,10 @@ Others methods I tried</br>
 4. `./tsdf_cloud`</br>
 5. `./svm_test <TSDF_point_cloud> <SVM_model>`</br>
 
+## Flowchart
+![](https://github.com/Siyu-ZOUZOU/Project/blob/master/examples/methode1.png) 
+![](https://github.com/Siyu-ZOUZOU/Project/blob/master/examples/methode2.png) 
+
 </br>
   </content>
 </snippet>
