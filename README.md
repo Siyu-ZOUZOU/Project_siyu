@@ -56,7 +56,7 @@ Others methods I tried.</br>
 5. ```./svm_test <TSDF_point_cloud> <SVM_model>```</br>
 </br>
 
-## Flowchart
+## Flowchart (french)
 * __Method 1__
 ![](https://github.com/Siyu-ZOUZOU/Project/blob/master/examples/methode1.png) 
 </br>
@@ -65,7 +65,7 @@ Others methods I tried.</br>
 </br>
 
 ## Report for the project
-Report is availble in google drive :
+Report (french) is availble in google drive :
 [Report](https://drive.google.com/open?id=0B6L4aoLTHNX1bFlNR1pIUlNmbGc)  
 
 </br>
