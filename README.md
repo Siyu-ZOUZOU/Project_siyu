@@ -19,7 +19,7 @@ Convert model collada to ply and pcd, create and train the dataset for later use
 Create a set of models with different orientations and scales.</br>
 </br>
 1. To create the data set with a model *.pcd (Must finish converter steps): `./pcd2dataset <model_filename(.pcd)> [Options]`</br>
-2. To create the data set with a model *.ply (Must finish converter first step): `./pcd2dataset <model_filename(.ply)> [Options]` </br>
+2. To create the data set with a model *.ply (Must finish converter first step): `./ply2dataset <model_filename(.ply)> [Options]` </br>
 3. To calculate the VFH descriptors and do libSVM training : `./create_vfh_dataset <output_SVM_model(*.model)> [Options]` (with the pcd files dataset named training_model_[number].pcd)  
 </br>
 4. To calculate the VFH descriptors then reserve as pcd file : `./write_VFH_pcd` (with the pcd files dataset named training_model_[number].pcd)</br>
@@ -42,14 +42,14 @@ Others methods I tried</br>
 # Usage
 ## Method 1
 1. `./Collada2Ply ColladaFileName(.dae)`</br>
-2. `./mesh_sampling OutputName(.pcd) [Options]`</br>
+2. `./ply2pcd OutputName(.pcd) [Options]`</br>
 3. `./capture_seg`</br>
 4. `./features_matching <scene_filename.pcd> <model_filename.pcd> <model_room_filename.pcd>`</br>
 </br>
 
 ## Method2
 1. `./Collada2Ply ColladaFileName(.dae)`</br>
-2. `./pcd2dataset <model_filename(.ply)> [Options]`</br>
+2. `./ply2dataset <model_filename(.ply)> [Options]`</br>
 3. `./create_vfh_dataset <output_SVM_model(*.model)> [Options]`</br>
 4. `./tsdf_cloud`</br>
 5. `./svm_test <TSDF_point_cloud> <SVM_model>`</br>
