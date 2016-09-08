@@ -4,7 +4,7 @@
 A project for object recognition and camera localization
 </br>
 ## Installation
-1. `cd build`
+1. ```cd build```
 2. `cmake ..`
 3. `make`
 </br>
