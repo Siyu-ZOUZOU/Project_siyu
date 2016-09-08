@@ -36,9 +36,9 @@ _Create a set of models with different orientations and scales._</br>
 * To do the svm and local pipelines: ```./svm_test <TSDF_point_cloud> <SVM_model>```</br>
 
 ### examples
-Some input and output examples, and algorithm flowchart</br>
+Some input and output examples, and algorithm flowcharts</br>
 ### others
-Others methods I tried.</br>
+Other methods I tried.</br>
 </br>
 ## Usage
 ### Method 1
