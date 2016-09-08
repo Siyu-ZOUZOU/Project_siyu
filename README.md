@@ -65,7 +65,7 @@ Other methods I tried.</br>
 </br>
 
 ## Report for the project
-Report (French) is availble in google drive :
+Report (French) is available in google drive :
 [Report](https://drive.google.com/open?id=0B6L4aoLTHNX1bFlNR1pIUlNmbGc)  
 
 </br>
