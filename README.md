@@ -12,13 +12,13 @@ _A project for object recognition and camera localization_
 ## Introduction
 ### converter
 _Convert model collada to ply and pcd, create and train the dataset for later use._</br>
-</br>
+
 1. To convert the Collada modle to *.ply: ```./Collada2Ply ColladaFileName(.dae)```</br>
 2. To convert *.ply to *.pcd: ```./mesh_sampling OutputName(.pcd) [Options]``` (Must finish step 1.)</br>
 
 ### create_dataset
 _Create a set of models with different orientations and scales._</br>
-</br>
+
 * To create the data set with a model *.pcd (Must finish converter steps): ```./pcd2dataset <model_filename(.pcd)> [Options]```</br>
 * To create the data set with a model *.ply (Must finish converter first step): ```./ply2dataset <model_filename(.ply)> [Options]``` </br>
 * To calculate the VFH descriptors and do libSVM training : ```./create_vfh_dataset <output_SVM_model(*.model)> [Options]``` (with the pcd files dataset named training_model_[number].pcd)</br>
@@ -65,7 +65,7 @@ Others methods I tried.</br>
 </br>
 
 ## Report for the project
-Report is availble in google drive
+Report is availble in google drive :
 [Report](https://drive.google.com/open?id=0B6L4aoLTHNX1bFlNR1pIUlNmbGc)  
 
 </br>
