@@ -2,12 +2,12 @@
   <content>
 # Project
 A project for object recognition and camera localization
-
+</br>
 ## Installation
 1. `cd build`
 2. `cmake ..`
 3. `make`
-
+</br>
 ## Introduction
 ### converter
 Convert model collada to ply and pcd, create and train the dataset for later use.</br>
@@ -35,10 +35,9 @@ To do the global and local pipelines: `./features_matching <scene_filename.pcd> 
 To do the svm and local pipelines: `./svm_test <TSDF_point_cloud> <SVM_model>`</br>
 ### examples
 Some input and output examples, and algorithm flowchart</br>
-</br> 
 ### others
 Others methods I tried</br>
-
+</br>
 # Usage
 ## Method 1
 1. `./Collada2Ply ColladaFileName(.dae)`</br>
