@@ -13,8 +13,8 @@ _A project for object recognition and camera localization_
 ### converter
 _Convert model collada to ply and pcd, create and train the dataset for later use._</br>
 
-1. To convert the Collada modle to *.ply: ```./Collada2Ply ColladaFileName(.dae)```</br>
-2. To convert *.ply to *.pcd: ```./mesh_sampling OutputName(.pcd) [Options]``` (Must finish step 1.)</br>
+1. To convert the Collada modle to *.ply: ```./Collada2Ply <ColladaFileName(.dae)>```</br>
+2. To convert *.ply to *.pcd: ```./ply2pcd <OutputName(.pcd)> [Options]``` (Must finish step 1.)</br>
 
 ### create_dataset
 _Create a set of models with different orientations and scales._</br>
@@ -42,14 +42,14 @@ Other methods I tried.</br>
 </br>
 ## Usage
 ### Method 1
-1. ```./Collada2Ply ColladaFileName(.dae)```</br>
-2. ```./ply2pcd OutputName(.pcd) [Options]```</br>
+1. ```./Collada2Ply <ColladaFileName(.dae)>```</br>
+2. ```./ply2pcd <OutputName(.pcd)> [Options]```</br>
 3. ```./capture_seg```</br>
 4. ```./features_matching <scene_filename.pcd> <model_filename.pcd> <model_room_filename.pcd>```</br>
 </br>
 
 ### Method2
-1. ```./Collada2Ply ColladaFileName(.dae)```</br>
+1. ```./Collada2Ply <ColladaFileName(.dae)>```</br>
 2. ```./ply2dataset <model_filename(.ply)> [Options]```</br>
 3. ```./create_vfh_dataset <output_SVM_model(*.model)> [Options]```</br>
 4. ```./tsdf_cloud```</br>
