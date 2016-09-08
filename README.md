@@ -39,15 +39,15 @@ Some input and output examples, and algorithm flowchart</br>
 ### others
 Others methods I tried</br>
 </br>
-# Usage
-## Method 1
+## Usage
+### Method 1
 1. `./Collada2Ply ColladaFileName(.dae)`</br>
 2. `./ply2pcd OutputName(.pcd) [Options]`</br>
 3. `./capture_seg`</br>
 4. `./features_matching <scene_filename.pcd> <model_filename.pcd> <model_room_filename.pcd>`</br>
 </br>
 
-## Method2
+### Method2
 1. `./Collada2Ply ColladaFileName(.dae)`</br>
 2. `./ply2dataset <model_filename(.ply)> [Options]`</br>
 3. `./create_vfh_dataset <output_SVM_model(*.model)> [Options]`</br>
@@ -58,5 +58,5 @@ Others methods I tried</br>
   </content>
 </snippet>
 
-#Report for the project
+## Report for the project
 [Report](https://drive.google.com/open?id=0B6L4aoLTHNX1bFlNR1pIUlNmbGc)  
