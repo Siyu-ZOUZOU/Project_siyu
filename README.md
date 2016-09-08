@@ -1,6 +1,7 @@
 <snippet>
   <content>
-# Project
+Project
+====
 A project for object recognition and camera localization
 </br>
 ## Installation
